@@ -1,0 +1,20 @@
+		.gallery {
+			background-color: #fff;
+			padding: 3px;
+			width: auto;
+		}
+		#maincontent .gallery ul { list-style: none; }
+		#maincontent .gallery ul li { display: inline; background:none; }
+		#maincontent .gallery ul img {
+			border: 5px solid #fff;
+			-moz-border-radius:5px;
+			height:100px;
+			width:140px;
+		}
+		#maincontent .gallery h3{color: #620619;font-family: sans-serif,serif; font-size: 12px; text-decoration:blink; font:bold;}
+		#maincontent .gallery a { text-decoration:none;}
+		#maincontent .gallery ul a:hover img {
+			border: 5px solid #000;
+			-moz-border-radius:5px;
+		}
+		#maincontent .gallery h3{color: #1B74A0;font-family: sans-serif,serif; font-size: 12px; font:bold;}

@@ -1,0 +1,57 @@
+/** 
+ * portfolio style rules.
+ */
+#portfolio {
+	margin:0 auto;
+	width:990px;
+	height:198px;
+	background:transparent url(../images/bg_slideshow.jpg) no-repeat 0 0;
+	position:relative;
+}
+#portfolio #portfolioContainer {
+  margin:0 auto;
+  width:900px;
+  height:198px;
+  overflow:auto; /* allow scrollbar */
+  position:relative;
+}
+#portfolio #portfolioContainer .slide {
+  margin:0 auto;
+  width:900px; /* reduce by 20 pixels of #slidesContainer to avoid horizontal scroll */
+  height:198px;
+}
+
+/** 
+ * portfolio controls style rules.
+ */
+.control {
+  display:block;
+  width:39px;
+  height:198px;
+  text-indent:-10000px;
+  position:absolute;
+  cursor: pointer;
+}
+#leftControl {
+  top:0;
+  left:0;
+  background:transparent url(../images/control_left.png) no-repeat 0 0;
+  opacity:60%;
+}
+#rightControl {
+  top:0;
+  right:0;
+  background:transparent url(../images/control_right.png) no-repeat 0 0;
+  opacity:60%;
+}
+
+/** 
+ * Style rules for Demo page
+ */
+.slide images {
+  float:right;
+  margin:0 15px;
+  height:192px;
+  width:320px;
+}
+
